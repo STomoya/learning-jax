@@ -9,9 +9,9 @@ services:
         - UID=${USERID}
         - USERNAME=dockeruser
         - TENSORFLOW_VERSION=2.8.0
-        - JAXLIB_VERSION=0.3.2
+        - JAXLIB_VERSION=0.3.5
         - JAX_CUDA_VERSION=11
-        - JAX_CUDNN_VERSION=82
+        - JAX_CUDNN_VERSION=805
     deploy:
       resources:
         reservations:
