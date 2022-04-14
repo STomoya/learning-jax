@@ -1,4 +1,6 @@
 
+cifar10
+
 # pickled models
 *.pt
 *.pth
